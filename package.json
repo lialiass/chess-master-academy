@@ -1,0 +1,23 @@
+{
+  "name": "chess-master-academy",
+  "version": "1.0.0",
+  "description": "Entraîneur d’ouvertures d’échecs interactif",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "npm install --no-save stockfish@19.0.1 && node scripts/verify.mjs"
+  },
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "chessground": "^9.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  },
+  "private": true
+}
